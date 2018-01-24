@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
     <title>J Foxharp Web Page</title>
     <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css"> />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-    blah {color:green}
+    hohum {color:green}
     </style>
 </head>
-<body>
-<p>Hello World!</p>
-<img src="img_29.jpg" alt="Prague">
-<p>Hello <vwa>again</vwa>, <blah>world</blah></p>
+<body> 
+    <p>Hello World! <vwa>How are you</vwa>?</p>
+   
+  <img src="img_29.jpg" alt="Prague" height=200>
+    <p><blah>Have a <hohum>nice</hohum> day.</blah></p>
+    <img src="http://cdn1-www.dogtime.com/assets/uploads/2011/01/file_23218_cockapoo-dog-breed-300x189.jpg" alt="dog" height=200>
+    
+    <button type="button" onclick="myFunction()">Set background color</button>
 
+<script>
+var x = 0;
+function myFunction() {
+    if (x < 1) {
+        document.body.style.backgroundColor = "red";
+        x = 1;
+    } else {
+            document.body.style.backgroundColor = "aqua";
+            x = 0;
+    }
+}
+</script>
+    
 </body>
-<html>
+</html>
