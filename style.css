@@ -1,1 +1,9 @@
-vwa {color:mediumvioletred}
+vwa {color: hotpink}
+blah {color: blue;
+    background-color: bisque;
+    font-family: sans;
+}
+body {
+    background-color: aqua;
+    font-family: monospace;
+}
