@@ -19,13 +19,16 @@
     <button type="button" onclick="myFunction()">Set background color</button>
 
 <script>
+console.log("this is my first public web page!");
 var x = 0;
 function myFunction() {
     if (x < 1) {
         document.body.style.backgroundColor = "red";
+	console.log("changed color to red");
         x = 1;
     } else {
             document.body.style.backgroundColor = "aqua";
+		console.log("changed color to aqua");
             x = 0;
     }
 }
